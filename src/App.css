@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  background-color: cadetblue;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +36,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hero-section {
+  font-family: 'Raleway', sans-serif;
+  font-size: 270%;
+  color: azure;
+  font-weight: bold;
+  margin: 40px 90px;
+}
+
+#context1 {
+  font-size: x-large;
+  color: tomato;
+}
+
+.nav-bar {
+  color: black;
+}
+
+.nav-item {
+  color: lightcoral;
 }
