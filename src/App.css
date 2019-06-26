@@ -51,10 +51,49 @@
   color: tomato;
 }
 
-.nav-bar {
-  color: black;
+nav {
+  overflow: hidden;
+  width: 100%;
+  /*//width should be a percentage for responsiveness*/
+  height: 38px;
+  /*//height should be px. Adjust to your liking*/
+  background-color: #ffffff;
+  /*//hex color code should be used*/
+
 }
 
-.nav-item {
-  color: lightcoral;
+nav a {
+  display: block;
+  float: left;
+  /*We're just setting up fonts seetings here'*/
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #888;
+  /*Box Method Test AKA handicap*/
+  /*background-color: #17b0cf;*/
+  /*border: 1px solid #000;*/
+  /*Padding Our Box*/
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  /*Let's remove the dumb link decoration'*/
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #17b0cf;
+}
+
+#logo {
+  /*font*/
+  font-family: 'Hind', sans-serif;
+  font-size: 30px;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px 2px #c4c4c4;
+  /*box*/
+  padding-left: 20px;
+  padding-right: 51%;
+  margin-right: 10px;
+  margin-top: -20px;
 }

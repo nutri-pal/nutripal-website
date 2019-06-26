@@ -2,16 +2,13 @@ import React from 'react';
 // import Button from 'react-bootstrap/Button'
 // import logo from './logo.svg';
 import './App.css';
-import HeroSectionComponent from './hero-section-component'
+import HeroSectionComponent from './components/hero-section-component'
+import NavbarComponent from './components/navbar-component'
 
 function App() {
   return (
     <div className='App'>
-        <ul className='nav-bar'>
-            <li className='nav-item'>home</li>
-            <li className='nav-item'>contact</li>
-            <li className='nav-item'>about us</li>
-        </ul>
+        <NavbarComponent/>
         <HeroSectionComponent/>
     </div>
   );
